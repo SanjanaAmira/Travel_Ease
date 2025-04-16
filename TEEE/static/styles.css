@@ -1,0 +1,46 @@
+/* body {
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    background: rgb(248, 248, 248);
+    padding: 20px;
+    border-radius: 10px;
+} */
+
+
+
+body {
+    background-color: #f4f4f4;
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 800px;
+    background: rgba(248, 248, 248, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}  
+
+.booking-card {
+    background-color: #eae3f9;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.status-badge {
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+}
+
+.status-badge.confirmed { background-color: #4CAF50; }
+.status-badge.pending { background-color: #FFC107; }
+.status-badge.cancelled { background-color: #F44336; }  

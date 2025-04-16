@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+    <div class="auth-card">
+        <h2>Enter Reset Token</h2>
+        <div class="info-box">
+            Please check your email for the reset token and enter it below.
+        </div>
+        <form method="POST">
+            <div class="form-group">
+                <label for="token">Reset Token</label>
+                <input type="text" class="form-input" id="token" name="token" required>
+            </div>
+            <button type="submit" class="primary-btn">Verify Token</button>
+        </form>
+    </div>
+</div>
+{% endblock %} 
